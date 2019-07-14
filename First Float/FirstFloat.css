@@ -12,14 +12,19 @@ body {
     margin-top: 33vh;
     text-align: center;
 }
+
 h1 {
-    margin-left: 12vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.0rem;
     color:white;
-    opacity: .8;
 }
-
+p {
+  display:flex;
+  color:white;
+  margin-top:2rem;
+  margin-left: 3vw;
+}
 .topcontent {
   margin-top: 20vh;
   height: 100vh;
@@ -28,11 +33,14 @@ h1 {
   flex-direction: row;
 }
 .Rogan {
-  margin-left: 8vw;
-  background-color:rgb(248, 223, 223);
+  margin-left: 1vw;
+  background-color:rgb(255, 255, 255);
   width: 50vw;
   height: 50vh;
   box-shadow: 0px 8px 10px #01ccff;
+}
+.Rogan:hover {
+  box-shadow: 0px 8px 10px #ff01dd;
 }
 .navbar-nav {
     padding-left: 55vw;
@@ -65,7 +73,6 @@ h1 {
     transition: all 0.3s ease;
     color: black;
     font-size: 20px;
-
   }
   
   .icon-bar a:hover {
