@@ -9,7 +9,7 @@ url('/images/floatPod2.jpg');
 width: 150%;
 height: 100vh;;
 background-size: cover;
-background-position-x: 10vw;
+background-position-y: 40px;
 
 }
 .container {
@@ -29,9 +29,16 @@ h1 {
     text-shadow: 4px 2px 8px rgb(39, 171, 248);
 
 }
-
+.logo {
+  box-shadow: 2px 2px 8px rgb(39, 171, 248);
+  
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  margin-left: 2.5vw;
+}
 .navbar-nav {
-    padding-left: 55vw;
+    padding-left: 44vw;
 }
 .dropdown-menu {
     background: none;
