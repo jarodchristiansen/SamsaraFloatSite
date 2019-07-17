@@ -93,15 +93,28 @@ body {
   .mental {
     border-radius: 30%;
   }
+  .physical:hover {
+    width: 95%;
+    height: 95%;
+    cursor: pointer;
+  }
+  .mental:hover {
+    width: 95%;
+    height: 95%;
+    cursor: pointer;
+  }
+  
+ 
    @media only screen and (max-width: 600px) {
 
    .Header {
     margin-left: 17vw;
    }
    .morp {
-     margin-left: 20vw;
-     width: 30vw;
+     margin-left: 10vw;
+     width: 35vw;
    }
+ 
    }
 
    @media only screen and (min-width: 768px) {
