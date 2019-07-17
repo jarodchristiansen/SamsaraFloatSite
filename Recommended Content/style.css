@@ -87,11 +87,20 @@ body {
      width: 70vw;
      display:flex;
  }
-
+ .physical {
+   border-radius: 30%;
+   }
+  .mental {
+    border-radius: 30%;
+  }
    @media only screen and (max-width: 600px) {
 
    .Header {
     margin-left: 17vw;
+   }
+   .morp {
+     margin-left: 20vw;
+     width: 30vw;
    }
    }
 
@@ -101,8 +110,8 @@ body {
        }
        .morp {
            margin-top: 15vh;
-           margin-left: 29vw;
-           width: 70vw;
+           margin-left: 20vw;
+           width: 20vw;
            display: flex;
        }
    } 
