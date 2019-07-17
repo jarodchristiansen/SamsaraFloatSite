@@ -48,7 +48,7 @@ p {
 
 
 .navbar-nav {
-    padding-left: 44vw;
+    padding-left: 30vw;
 }
 .dropdown-menu {
     background: none;
@@ -86,14 +86,7 @@ p {
   .icon-bar a:hover {
     background-color: white;
     box-shadow: 3px 2px 8px rgb(230, 26, 248);
-
   }
-
-  .WhatToExpect {
-
-  }
-
-
   .twitter {
     color: black;
   }
@@ -233,6 +226,9 @@ p {
       width: 380px;
       height: 280px;
     }   
+    .Info-p{
+      margin-right: 15vw;
+    }
 }
 
 @media only screen and (min-width: 768px) {
