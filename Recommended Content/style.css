@@ -1,0 +1,108 @@
+* {
+    max-width: 100%;
+
+}
+
+body {
+  height: 100vh;
+  background-color: #05182d;
+}
+.logo {
+    box-shadow: 0px 8px 10px #b5c5c9;
+  }
+  .navbar-nav {
+    padding-left: 44vw;
+}
+.dropdown-menu {
+    background: none;
+}
+.dropdown-item {
+    color:white;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  margin-left: 3vw;
+  text-shadow: 0px 5px 10px rgb(0, 225, 255);
+}
+
+  
+  .icon-bar {
+      z-index: 1;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      box-shadow: 0px 8px 8px rgb(39, 171, 248);
+  
+    }
+    
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: black;
+      font-size: 20px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: white;
+      box-shadow: 3px 2px 8px rgb(230, 26, 248);
+  
+    }
+  
+    .twitter {
+      color: black;
+    }
+    
+    .google {
+      color: black;
+    }
+    
+    .linkedin {
+      color: black;
+    }
+    
+    .youtube {
+      color: black;
+    }
+   .github {
+        color: black;
+       overflow:hidden;
+       height: 4rem;
+       width: 4rem;
+   }
+   h1 {
+       color:white;
+   }
+   h2 {
+       color:white;
+   }
+   p {
+       color:white;
+   }
+ .morp {
+     width: 70vw;
+     display:flex;
+ }
+
+   @media only screen and (max-width: 600px) {
+
+   .Header {
+    margin-left: 17vw;
+   }
+   }
+
+   @media only screen and (min-width: 768px) {
+       .Header {
+           margin-left: 12vw;
+       }
+       .morp {
+           margin-top: 15vh;
+           margin-left: 29vw;
+           width: 70vw;
+           display: flex;
+       }
+   } 
