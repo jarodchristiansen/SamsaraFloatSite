@@ -103,7 +103,10 @@ body {
     height: 95%;
     cursor: pointer;
   }
-  
+  #myDIV {
+    padding-top: 5vh;
+    margin-right: 2vw;
+  }
  
    @media only screen and (max-width: 600px) {
 
@@ -113,6 +116,9 @@ body {
    .morp {
      margin-left: 10vw;
      width: 35vw;
+   }
+   #myDIV {
+     margin-right: 2vw;
    }
  
    }
@@ -127,4 +133,7 @@ body {
            width: 20vw;
            display: flex;
        }
+      #myDIV {
+        margin-right: 10vw;
+      }
    } 
