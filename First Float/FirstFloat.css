@@ -159,6 +159,13 @@ p {
 .btn {
   margin-left: 40vw;
 }
+#physicalBenefits {
+font-size: 1.5rem;
+}
+.muscleRecovery {
+  background-color: rgb(241, 247, 245);
+  border: 2px 2px 2px solid white;
+}
  @media only screen and (max-width: 600px) {
    
     body {
